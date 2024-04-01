@@ -20,6 +20,10 @@ Study : DOI: 10.2139/ssrn.4740183
    	3.2. sampler_MONICA.py: read observation for parameter likelihood space calculation, number of reputation, applying the sceua algorithm for sampling, results and figure creation
    
    	3.3. spotpy_setup_MONICA.py: This section essentially provides an interface between spotpy and a MONICA model, allowing for calibration and optimization of the model parameters using spotpy's algorithms.
+
+
+
+monica-zmq-server -bi -i tcp://*:6666 -bo -o tcp://*:7777
     
 
 
