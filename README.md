@@ -13,7 +13,7 @@ Study : DOI: 10.2139/ssrn.4740183
    
    	2.3.crop_sim_site_MAP.csv: Covers the exact namings of MONICA set up (step 1), and the name of the species and cultivar parameter, along with the crop ID
    
-4. Prepare the required files for SPOTPY
+3. Prepare the required files for SPOTPY
    
    	3.1. MONICA_adapter.py: making env for parameters, MONICA set-up, defining output events
    
