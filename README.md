@@ -22,7 +22,7 @@ from the study : DOI: 10.2139/ssrn.4740183
    	3.3. spotpy_setup_MONICA.py: This section essentially provides an interface between spotpy and a MONICA model, allowing for calibration and optimization of the model parameters using spotpy's algorithms.
 
 
-We need to start MONICA in PowerShell in the background to reproduce the result using the port to which the producer and the consumer will respond : 
+We need to start MONICA in PowerShell in the background to reproduce the result using the port to which the producer (tcp://*:6666) and the consumer (tcp://*:7777) will respond : 
 monica-zmq-server -bi -i tcp://*:6666 -bo -o tcp://*:7777
 
 
