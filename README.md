@@ -23,6 +23,7 @@ from the study : DOI: 10.2139/ssrn.4740183
 
 
 We need to start MONICA in PowerShell in the background to reproduce the result using the port to which the producer (tcp://*:6666) and the consumer (tcp://*:7777) will respond : 
+
 monica-zmq-server -bi -i tcp://*:6666 -bo -o tcp://*:7777
 
 
