@@ -1,7 +1,8 @@
 # Spotpy_sceua_hymod_MONICA_Optimisation_Example 
 Files and required Scripts for optimizing the simulation of Above-ground biomass (AGB), by the MONICA agroecosystem model using the SPOTPY optimization algorithm.
 from the study : DOI: 10.2139/ssrn.4740183
-
+## we recommend downloading the Spotpy_Required_files and trying.
+ps: other folders are there just to categorise the data we require!
 # Steps:
 1. Prepare MONICA set-up: sim.json, site.json, crop.json, climate.cv;
 
